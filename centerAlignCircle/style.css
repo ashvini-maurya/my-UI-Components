@@ -1,0 +1,48 @@
+.content-one, .content-two, .content-three {
+  width: 200px;
+  height: 200px;
+}
+
+.circle-one, .circle-two, .circle-three {
+  width: 60px;
+  height: 60px;
+  border-radius: 80px;
+}
+
+/* using transform */
+.content-one {
+  position: relative;
+  background: pink;
+}
+
+/* using flexbox */
+.content-two {
+  background: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+/* using grid */
+.content-three {
+  display: grid;
+  justify-items: center;
+  align-items: center; 
+  background: violet;
+}
+
+.circle-one {
+  background: red;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.circle-two {
+  background: white;
+}
+
+.circle-three {
+  background: blue;
+}
